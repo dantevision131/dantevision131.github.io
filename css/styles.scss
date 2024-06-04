@@ -1,0 +1,313 @@
+/*-- scss:functions --*/
+
+
+
+/*-- scss:defaults --*/
+$h2-font-size:          1.6rem !default;
+$headings-font-weight:  500 !default;
+
+$grain:      #D7CEC7;
+$blackboard:  #565656;
+$oxblood:  #76323F;
+$tan:   #C09F80;
+
+$dante-blue: #0070C0;
+$vision-green: #379956;
+
+$dv-dark: #042426;
+$dv-darkgray: #333333;
+
+
+
+/* -- scss:mixins --*/
+ @mixin make-container($padding-x: $container-padding-x) {
+  width: 100%;
+  padding-right: $padding-x;
+  padding-left: $padding-x;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+
+/*-- scss:rules --*/
+
+// genal
+:root{
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*
+body{
+  font-family: NanumSquare, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",   "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+}
+*/
+
+
+// header
+
+.headroom{
+  -webkit-box-shadow: 0 8px 6px -6px #999;
+  -moz-box-shadow: 0 8px 6px -6px #999;
+  box-shadow: 0 8px 6px -6px #999;
+  background-color: var(--bs-body-bg);
+}
+
+.navbar>.container-fluid{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.navbar>.container-fluid>.navbar-brand-container{
+  padding-left: 1rem;
+}
+
+.navbar-expand-lg .navbar-collapse {
+  padding-right: 1rem;
+}
+
+#quarto-header>nav{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.navbar-dark {
+  height: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  font-weight: 800;
+  font-size: .9rem;
+  background-color: var(--bs-body-bg);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+  color: $dante-blue;
+}
+
+nav .nav-item:not(.compact) {
+ margin-left: 10px; 
+}
+  
+@media (max-width: 992px){
+  .navbar>.container-lg,.navbar>.container,.navbar>.container-fluid {
+    justify-content: start;
+    -webkit-justify-content: start;
+  }  
+}
+
+
+// section general
+#quarto-content>section{
+  padding-top: 5rem;
+  padding-bottom: 5em;
+}
+
+#quarto-content>section>h2, #quarto-content>section>.h2{
+  margin-top: 0;
+  margin-bottom: 2rem;
+  padding-bottom: 0;
+  text-align: center;
+  border-bottom: none;
+}
+
+.page-layout-custom {
+  @include make-container();
+}
+
+.page-layout-custom>section{
+  @include make-container();
+}
+
+.quarto-title-block{
+  margin-top: 2rem !important;
+}
+
+
+
+// section specific
+
+#vision{
+  padding-top: 8rem !important;
+  padding-bottom: 7rem !important;
+  background-image: url('images/digital-transformation.jpg');
+  background-color: rgba(0,33,71, .95);
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+  color: white;
+}
+
+#vision h2{
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+#vision p{
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+#product{
+  background-color: var(--bs-light);
+}
+
+#product .accordion{
+  margin-bottom: 0.5rem;
+}
+
+
+#product .accordion-button{
+  font-size: .9rem;
+  
+}
+
+#product .accordion-body{
+  font-size: .8rem;
+}
+
+#service{
+  background-color: var(--quarto-hl-ss-color);
+  color: var(--bs-white);
+}
+
+#service .card{
+  padding: 1rem 2rem;
+  color: var(--bs-dark);
+  background: var(--bs-light);
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+
+#service .card-title{
+  font-size: 1rem;
+}
+
+#service .card-text{
+  font-size: .9rem;
+}
+
+#news{
+  background-color: var(--bs-light);
+}
+
+
+// footer
+.custom-footer{
+  background-color: var(--bs-gray-900);
+  color: var(--bs-body-bg);
+  font-size: calc( var(--bs-body-font-size)*.8 );
+}
+
+.custom-footer .copyright{
+  background-color: var(--bs-gray-800);
+  padding: .5rem 0;
+  text-align: center;
+}
+
+
+.custom-footer .accordion-item{
+  background-color: inherit;
+  border: none;
+}
+
+
+.custom-footer .accordion-header{
+  border-bottom: none;
+}
+
+.custom-footer .accordion-button{
+  padding: 0;
+  color: inherit;
+  background-color: inherit;
+  font-size: inherit;
+  width: initial;
+}
+
+.custom-footer .accordion-button:focus{
+  box-shadow: none;
+}
+
+.custom-footer .accordion-button::after{
+  margin-left: .25rem;
+  width: initial;
+  height: initial;
+  font-size: 0.8rem;
+}
+
+.custom-footer .accordion-button.collapsed::after{
+  content: "\25bc";
+  background-image: none;
+  transform: rotate(0deg);
+}
+
+.custom-footer .accordion-button:not(.collapsed)::after {
+  content: "\25bc";
+  background-image: none;
+  transform: rotate(-180deg);
+}
+
+.custom-footer .accordion-body{
+  padding: .1rem 0;
+  font-size: 0.8rem;
+}
+
+// pagnation on news section
+
+
+
+
+// revision of existing elements
+.full-width{
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+
+
+
+.h1, .h2, .h3, .h6, h1, h2, h3 {
+    font-weight: 800 !important;
+}
+
+.h4, .h5, h4, h5{
+    font-weight: 600 !important;
+}
+
+.fs-7{
+  font-size: .8rem !important;  
+}
+
+.fs-8{
+  font-size: .75rem !important;  
+}
+
+.accordion h2, .accordion .h2{
+  margin-top: 0;
+  padding-bottom: 0;
+}
+
+
+// post
+.title-block-header{
+  border-bottom: 1px solid var(--bs-dark);
+  padding-bottom: 1rem;
+}
+
+
+
+

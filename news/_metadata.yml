@@ -1,0 +1,6 @@
+language: custom.yml
+date-format: "YYYY.MM.DD"
+format: 
+  html:
+    page-layout: article
+    template-partials: "title-block.html"
