@@ -17,16 +17,25 @@ listing:
   #   type: default
   #   categories: true
 date-format: "YYYY.MM.DD"
+format:
+  html: 
+    section-divs: true
 ---
 
 
-## Democratizing Digital Transformation{#vision}
+## {#vision}
 
 :::{.row .justify-content-center}
 
 ::::{.col-md-7 .text-center .fs-5 .lh-lg}
 
+<h2>Democratizing Digital Transformation</h2>
+
+:::::{.container-fluid .px-0 .text-center .lh-lg}
+
 "디지털 전환의 대중화"의 슬로건 아래에 생명과학 산업 내 중소기업 회사들이 <br> 사내 IT 부서 없이도 사업 운영 과정의 디지털 전환을 이뤄낼 수 있도록,<br> DanteVision은 합리적인 가격으로 비즈니스 솔루션(SaaS)을 제공합니다.
+
+:::::
 
 ::::
 
@@ -39,33 +48,31 @@ date-format: "YYYY.MM.DD"
 :::
 
 
-## Coming Soon: Trial Dealmaking Support (TDS) {#product}
+## {#product}
 
 :::{.row .justify-content-center}
 
-::::{.col-md-7 .text-center .lh-lg}
+::::{.col-md-7}
+
+<h2>Coming Soon: Trial Dealmaking Support (TDS) </h2>
+
+:::::{.container-fluid .px-0 .text-center .lh-lg}
+
 TDS는 CRO사의 사업개발 과정의 [과학적 관리(Taylorism)](https://ko.wikipedia.org/wiki/%EA%B3%BC%ED%95%99%EC%A0%81_%EA%B4%80%EB%A6%AC%EB%B2%95){target="_blank".text-dark}를 지원하는 비즈니스 솔루션 입니다.
 
 의약품 임상시험 과제 수주 또는 참여를 목적으로 한 영업 및 사업개발 활동을<br>
 구조화, 자동화, 시각화 및 데이터베이스화를 통해 체계적&CenterDot;효율적으로 운영해 보세요!
 
 TDS는 CRO사의 사업개발(Business Development BD) 부문<br>디지털 전환을 위한 여러분의 첫 번째 선택지 입니다.
-::::
 
-:::
+:::::
 
 
-:::{.row .justify-content-center}
+<h4 class="my-4 text-center">Key Features</h4>
 
-:::{.h4 .mt-4 .mb-1 .text-center}
-Key Features
-:::
+:::::{.row .justify-content-center .gx-2}
 
-::::{.col-xl-6}
-::::::{.container-fluid}
-
-:::::{.row .justify-content-center}
-:::{.col-xl-5 .ps-1 .pe-1}
+::::::{.col-xl-4}
 ```{=html}
 <div class="accordion" id="crm">
   <div class="accordion-item">
@@ -82,9 +89,9 @@ Key Features
   </div>
 </div>
 ```
-:::
+::::::
 
-:::{.col-xl-5 .ps-1 .pe-1}
+::::::{.col-xl-4}
 ```{=html}
 <div class="accordion" id="prm">
   <div class="accordion-item">
@@ -101,17 +108,20 @@ Key Features
   </div>
 </div>
 ```
-:::
+::::::
+
 :::::
 
-:::::{.row .justify-content-center}
-:::{.col-xl-5 .ps-1 .pe-1}
+
+:::::{.row .justify-content-center .gx-2}
+
+::::::{.col-xl-4}
 ```{=html}
 <div class="accordion" id="analytics">
   <div class="accordion-item">
     <h2 class="accordion-header" id="analytics-header">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#analytics-content" aria-expanded="true" aria-controls="analytics-content">
-      <i class="fa-solid fa-chart-line fa-2xl me-3 d-none d-xxl-block"></i>Analytics, Visualization & Near-time Dashboard
+      <i class="fa-solid fa-chart-line fa-2xl me-3 d-none d-xxl-block"></i>Analytics, Visualization & Dashboard
       </button>
     </h2>
     <div id="analytics-content" class="accordion-collapse collapse" aria-labelledby="analytics-header" data-bs-parent="#analytics">
@@ -122,9 +132,9 @@ Key Features
   </div>
 </div>
 ```
-:::
+::::::
 
-:::{.col-xl-5 .ps-1 .pe-1}
+::::::{.col-xl-4}
 ```{=html}
 <div class="accordion" id="doc">
   <div class="accordion-item">
@@ -141,43 +151,43 @@ Key Features
   </div>
 </div>
 ```
-:::
+::::::
+
 :::::
 
-::::::
 ::::
 
 :::
 
 
-## Professional Technical Services {#service}
+
+## {#service}
 
 :::{.row .justify-content-center}
 
-::::{.col-md-7 .text-center}
+::::{.col-md-7}
+
+<h2>Professional Technical Services</h2>
+
+:::::{.container-fluid .px-0 .text-center .lh-lg}
 
 데이터 과학, 웹 애플리케이션 프로젝트와 관련하여<br>다양한 기술 서비스를 제공합니다.
 
 비즈니스 문의: <business@dantevision.com>{.text-white}
 
-::::
+:::::
 
-:::
+<h4 class="text-center my-4">서비스 항목</h4>
 
+:::::{.row .justify-content-center}
 
-:::{.row .justify-content-center}
-
-:::{.h4 .mt-3 .mb-1 .text-center}
-서비스 항목
-:::
-
-::::{.col-lg-3 .ps-0 .pe-0}
+::::::{.col-lg-6}
 
 ```{=html}
 <div class="container-fluid card mb-2">
   <div class="row gx-0">
     <div class="col-lg-3 text-center align-self-center">
-      <img src="/images/shiny_logo.png" class="card-img	d-none d-lg-block" alt="R/shiny" style="width:75%">
+      <img src="/images/shiny_logo.png" class="card-img	d-none d-lg-block p-2" alt="R/shiny" style="width:75%">
     </div>
     <div class="col-lg-9">
       <div class="card-body">
@@ -210,7 +220,7 @@ Key Features
 <div class="container-fluid card mb-2">
   <div class="row gx-0">
     <div class="col-lg-3 text-center align-self-center">
-      <img src="/images/analytics.png" class="card-img d-none d-lg-block" alt="Data Analytics" style="width:80%">
+      <img src="/images/analytics.png" class="card-img d-none d-lg-block p-2" alt="Data Analytics" style="width:80%">
     </div>
     <div class="col-lg-9">
       <div class="card-body">
@@ -227,7 +237,7 @@ Key Features
 <div class="container-fluid card mb-2">
   <div class="row gx-0">
     <div class="col-lg-3 text-center align-self-center">
-      <img src="/images/it_consulting.png" class="card-img d-none d-lg-block" alt="IT Consulting"  style="width:80%">
+      <img src="/images/it_consulting.png" class="card-img d-none d-lg-block p-2" alt="IT Consulting"  style="width:80%">
     </div>
     <div class="col-lg-9">
       <div class="card-body">
@@ -239,25 +249,48 @@ Key Features
   </div>
 </div>
 ```
+::::::
+
+
+:::::
+
 ::::
 
 :::
 
 
-## Company News{#news}
 
-:::{#news_wrap .row .justify-content-center}
 
-:::{.col-lg-5 .col-xl-5}
+## {#news}
 
-::::{#news_content}
+:::{.row .justify-content-center}
+
+
+::::{.col-md-7}
+
+<h2>Company News</h2>
+
+:::::{.row .justify-content-center .gap-2}
+
+::::::{.col-lg-9 .col-xl-9}
+
+:::::::{#news_content}
+:::::::
+
+::::::
+
+::::::{.col-lg-2 .col-xl-2}
+
+:::::::{#quarto-margin-sidebar}
+:::::::
+
+::::::
+
+:::::
+
 ::::
 
-:::
 
-:::{#quarto-margin-sidebar .col-lg-1 .col-xl-1}
-
-:::
 
 :::
 

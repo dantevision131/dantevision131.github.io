@@ -32,7 +32,7 @@ $dv-darkgray: #333333;
 
 /*-- scss:rules --*/
 
-// genal
+// general
 :root{
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
@@ -74,7 +74,7 @@ body{
   padding-right: 1rem;
 }
 
-#quarto-header>nav{
+#quarto-header > nav{
   padding-left: 0;
   padding-right: 0;
 }
@@ -107,12 +107,17 @@ nav .nav-item:not(.compact) {
 
 
 // section general
-#quarto-content>section{
+#quarto-content > section{
   padding-top: 5rem;
   padding-bottom: 5em;
 }
 
-#quarto-content>section>h2, #quarto-content>section>.h2{
+#quarto-content > section > h2{
+  margin-bottom: 0 !important;
+  padding: 0;
+}
+
+#quarto-content > section h2:not(.accordion-header){
   margin-top: 0;
   margin-bottom: 2rem;
   padding-bottom: 0;
@@ -120,11 +125,12 @@ nav .nav-item:not(.compact) {
   border-bottom: none;
 }
 
+
 .page-layout-custom {
   @include make-container();
 }
 
-.page-layout-custom>section{
+.page-layout-custom > section{
   @include make-container();
 }
 
@@ -148,16 +154,19 @@ nav .nav-item:not(.compact) {
   color: white;
 }
 
+
 #vision h2{
   font-size: 2.5rem;
-  margin-bottom: 2rem;
+  
 }
 
 #vision p{
-  text-align: center;
-  font-size: 1.2rem;
+  font-size: 1.25rem;
   font-weight: 500;
 }
+
+
+
 
 #product{
   background-color: var(--bs-light);
@@ -216,11 +225,11 @@ nav .nav-item:not(.compact) {
 }
 
 
+// footer business registration information
 .custom-footer .accordion-item{
   background-color: inherit;
   border: none;
 }
-
 
 .custom-footer .accordion-header{
   border-bottom: none;
@@ -278,14 +287,12 @@ nav .nav-item:not(.compact) {
 }
 
 
-
-
 .h1, .h2, .h3, .h6, h1, h2, h3 {
-    font-weight: 800 !important;
+  font-weight: 800 !important;
 }
 
 .h4, .h5, h4, h5{
-    font-weight: 600 !important;
+  font-weight: 600 !important;
 }
 
 .fs-7{
