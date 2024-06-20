@@ -33,10 +33,10 @@ format:
 
 :::::{.container-fluid .px-0 .text-center .lh-lg}
 
-DanteVision은 "디지털 전환의 대중화"의 슬로건 아래에<br>
+DanteVision은 "디지털 전환의 대중화"의 슬로건 하에<br>
 생명과학 산업 내 중소기업 회사들이 사내 IT 부서 없이도<br>
 사업 운영 과정의 디지털 전환을 이뤄낼 수 있도록,<br>
-합리적인 가격으로 비즈니스 솔루션(SaaS)을 제공합니다.
+합리적인 가격으로 비즈니스 솔루션을 제공합니다.
 
 :::::
 
@@ -57,15 +57,17 @@ DanteVision은 "디지털 전환의 대중화"의 슬로건 아래에<br>
 
 ::::{.col-md-7}
 
-<h2>Coming Soon: Trial Dealmaking Support (TDS) </h2>
+<h3 class="text-center mb-3 mt-0"><span class="text-dv-blue">Coming</span> <span class="text-dv-green">Soon:</span></h3>
+<h2>Trial Dealmaking Support (TDS) </h2>
 
 :::::{.container-fluid .px-0 .text-center .lh-lg}
 
 TDS는 CRO사의 사업 개발(Business Development) 운영의<br>
-[과학적 관리(Taylorism)](https://ko.wikipedia.org/wiki/%EA%B3%BC%ED%95%99%EC%A0%81_%EA%B4%80%EB%A6%AC%EB%B2%95){target="_blank".text-dark}를 지원하는 비즈니스 솔루션 입니다.
+[과학적 관리](https://ko.wikipedia.org/wiki/%EA%B3%BC%ED%95%99%EC%A0%81_%EA%B4%80%EB%A6%AC%EB%B2%95){target="_blank".text-dark}를 지원하는 비즈니스 솔루션 입니다.
 
-임상시험 과제 수주 또는 참여를 목적으로 한 영업 및 사업 개발 활동을<br>
-구조화, 자동화 및 시각화를 통해 과학적으로 운영해 보세요!
+임상시험 과제 수주 또는 참여를 목적으로 한<br>
+영업 및 사업 개발 활동을 비즈니스 솔루션을 통해<br>
+체계적이고 과학적으로 운영해 보세요.
 
 TDS는 사업 개발 부문 디지털 전환을 위한<br>
 CRO 산업의 첫 번째 선택지 입니다.
@@ -77,13 +79,16 @@ CRO 산업의 첫 번째 선택지 입니다.
 
 :::::{.row .justify-content-center .gx-2}
 
-::::::{.col-xl-4}
+::::::{.col-xl-5}
 ```{=html}
 <div class="accordion" id="crm">
   <div class="accordion-item">
     <h2 class="accordion-header" id="crm-header">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#crm-content" aria-expanded="true" aria-controls="crm-content">
-      <i class="fa-solid fa-user-tie fa-2xl me-3 d-none d-xxl-block"></i>Client Relationship Management (CRM)
+        <div class="w-100 d-flex alig-items-center gap-3 ps-1 pe-3">
+          <i class="fa-solid fa-user-tie d-none d-lg-block" style="font-size:2.1rem"></i>
+          <span>Client Relationship Management (CRM)</span>
+        </div>
       </button>
     </h2>
     <div id="crm-content" class="accordion-collapse collapse" aria-labelledby="crm-header" data-bs-parent="#crm">
@@ -96,13 +101,16 @@ CRO 산업의 첫 번째 선택지 입니다.
 ```
 ::::::
 
-::::::{.col-xl-4}
+::::::{.col-xl-5}
 ```{=html}
 <div class="accordion" id="prm">
   <div class="accordion-item">
     <h2 class="accordion-header" id="prm-header">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#prm-content" aria-expanded="true" aria-controls="prm-content">
-        <i class="fa-solid fa-people-carry-box fa-2xl me-3 d-none d-xxl-block"></i>Partner Relationship Management (PRM)
+        <div class="w-100 d-flex alig-items-center gap-3 ps-1 pe-3">
+          <i class="fa-solid fa-people-carry-box d-none d-xl-block" style="font-size:2.1rem"></i>
+          <span>Client Relationship Management (CRM)</span>
+        </div>
       </button>
     </h2>
     <div id="prm-content" class="accordion-collapse collapse" aria-labelledby="prm-header" data-bs-parent="#prm">
@@ -120,13 +128,16 @@ CRO 산업의 첫 번째 선택지 입니다.
 
 :::::{.row .justify-content-center .gx-2}
 
-::::::{.col-xl-4}
+::::::{.col-xl-5}
 ```{=html}
 <div class="accordion" id="analytics">
   <div class="accordion-item">
     <h2 class="accordion-header" id="analytics-header">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#analytics-content" aria-expanded="true" aria-controls="analytics-content">
-      <i class="fa-solid fa-chart-line fa-2xl me-3 d-none d-xxl-block"></i>Analytics, Visualization & Dashboard
+        <div class="w-100 d-flex alig-items-center gap-3 ps-1 pe-3">
+          <i class="fa-solid fa-chart-line d-none d-xl-block" style="font-size:2.1rem"></i>
+          <span>Analytics, Visualization & Near-Time Dashboard</span>
+        </div>
       </button>
     </h2>
     <div id="analytics-content" class="accordion-collapse collapse" aria-labelledby="analytics-header" data-bs-parent="#analytics">
@@ -139,13 +150,16 @@ CRO 산업의 첫 번째 선택지 입니다.
 ```
 ::::::
 
-::::::{.col-xl-4}
+::::::{.col-xl-5}
 ```{=html}
 <div class="accordion" id="doc">
   <div class="accordion-item">
     <h2 class="accordion-header" id="doc-header">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#doc-content" aria-expanded="true" aria-controls="doc-content">
-        <i class="fa-solid fa-file-invoice fa-2xl me-3 d-none d-xxl-block"></i></i>Document Automation & History Tracking
+        <div class="w-100 d-flex alig-items-center gap-3 ps-1 pe-3">
+          <i class="fa-solid fa-file-invoice d-none d-xl-block" style="font-size:2.1rem"></i>
+          <span>Document Automation & History Tracking</span>
+        </div>
       </button>
     </h2>
     <div id="doc-content" class="accordion-collapse collapse" aria-labelledby="doc-header" data-bs-parent="#doc">
@@ -191,10 +205,10 @@ CRO 산업의 첫 번째 선택지 입니다.
 ```{=html}
 <div class="container-fluid card mb-2">
   <div class="row gx-0">
-    <div class="col-lg-3 text-center align-self-center">
-      <img src="/images/shiny_logo.png" class="card-img	d-none d-lg-block p-2" alt="R/shiny" style="width:75%">
+    <div class="col-lg-3 ps-2 align-self-center">
+      <img src="/images/shiny_logo.png" class="card-img	d-none d-lg-block p-2" alt="R/shiny">
     </div>
-    <div class="col-lg-9">
+    <div class="col-lg-9 ps-2">
       <div class="card-body">
         <h5 class="card-title">R/Shiny App Development</h5>
         <p class="card-text">데이터 과학(Data Science) 프로젝트에 특화된 R/Shiny 기반 웹 애플리케이션 및 모듈 제작 서비스</p>
@@ -224,10 +238,10 @@ CRO 산업의 첫 번째 선택지 입니다.
 ```{=html}
 <div class="container-fluid card mb-2">
   <div class="row gx-0">
-    <div class="col-lg-3 text-center align-self-center">
-      <img src="/images/analytics.png" class="card-img d-none d-lg-block p-2" alt="Data Analytics" style="width:80%">
+    <div class="col-lg-3 align-self-center">
+      <img src="/images/analytics.png" class="card-img d-none d-lg-block p-2" alt="Data Analytics">
     </div>
-    <div class="col-lg-9">
+    <div class="col-lg-9 ps-2">
       <div class="card-body">
         <h5 class="card-title">Big Data / Statistical Analysis </h5>
         <p class="card-text">글로벌 응용계량경제학 박사 및
@@ -241,8 +255,8 @@ CRO 산업의 첫 번째 선택지 입니다.
 ```{=html}
 <div class="container-fluid card mb-2">
   <div class="row gx-0">
-    <div class="col-lg-3 text-center align-self-center">
-      <img src="/images/it_consulting.png" class="card-img d-none d-lg-block p-2" alt="IT Consulting"  style="width:80%">
+    <div class="col-lg-3 ps-2 align-self-center">
+      <img src="/images/it_consulting.png" class="card-img d-none d-lg-block p-2" alt="IT Consulting">
     </div>
     <div class="col-lg-9">
       <div class="card-body">
@@ -279,8 +293,12 @@ CRO 산업의 첫 번째 선택지 입니다.
 
 ::::::{.col-lg-9 .col-xl-9}
 
+
+
 :::::::{#news_content}
 :::::::
+
+
 
 ::::::
 

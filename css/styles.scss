@@ -39,7 +39,20 @@ $dv-darkgray: #333333;
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
+  
+  --dv-blue: $dante-blue;
+  --dv-dark: $vision-green;
 }
+
+.text-dv-blue{
+  color: $dante-blue;
+}
+
+.text-dv-green{
+  color: $vision-green;
+}
+
+
 
 html {
   scroll-behavior: smooth;
@@ -50,6 +63,95 @@ body{
   font-family: NanumSquare, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",   "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
 }
 */
+
+
+// header
+.headroom{
+  -webkit-box-shadow: 0 8px 6px -6px #999;
+  -moz-box-shadow: 0 8px 6px -6px #999;
+  box-shadow: 0 8px 6px -6px #999;
+  background-color: var(--bs-body-bg);
+}
+
+.navbar>.container-fluid{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.navbar>.container-fluid>.navbar-brand-container{
+  padding-left: 1rem;
+}
+
+.navbar-expand-lg .navbar-collapse {
+  padding-right: 1rem;
+}
+
+#quarto-header > nav{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.navbar-dark {
+  height: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  font-weight: 800;
+  font-size: .9rem;
+  background-color: var(--bs-body-bg);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+  color: $dante-blue;
+}
+
+nav .nav-item:not(.compact) {
+ margin-left: 10px; 
+}
+  
+@media (max-width: 992px){
+  .navbar>.container-lg,.navbar>.container,.navbar>.container-fluid {
+    justify-content: start;
+    -webkit-justify-content: start;
+  }  
+}
+
+
+
+#quarto-content section{
+  padding-top: 5rem;
+  padding-bottom: 5em;
+}
+
+#quarto-content section > h2{
+  margin-bottom: 0 !important;
+  padding: 0;
+}
+
+#quarto-content section h2:not(.accordion-header){
+  margin-top: 0;
+  margin-bottom: 2rem;
+  padding-bottom: 0;
+  text-align: center;
+  border-bottom: none;
+}
+
+
+.page-layout-custom {
+  @include make-container();
+}
+
+.page-layout-custom > section{
+  @include make-container();
+}
+
+.quarto-title-block{
+  margin-top: 2rem !important;
+}
+
+
+
 
 #vision{
   background-image: url('images/digital-transformation.jpg');
@@ -127,6 +229,20 @@ body{
     
   }
   
+  #service {
+    .card-title{
+      font-size: calc(var(--bs-body-font-size));
+    }
+    
+    .card-body p{
+      font-size: calc(var(--bs-body-font-size)*.9);
+    }
+  }
+  
+  
+  .custom-footer .logo{
+    width: 25%;
+  }
   
 }
 
@@ -134,16 +250,20 @@ body{
 @media (max-width: 575.98px) { 
   
   body{
-    --bs-body-font-size: 14px;
+    --bs-body-font-size: 13px;
   }
   
   h2 {
     font-size: calc(var(--bs-body-font-size) * 1.6);
   }
   
-  #quarto-content > section h2:not(.accordion-header){
-    margin-bottom: 1rem !important;
+  #quarto-content section{
+    padding-top: 3rem;
+    padding-bottom: 3em;
   }
+
+  
+ 
   
   
   #vision{
@@ -201,104 +321,28 @@ body{
   }
   
   
-}
-
-
-
-
-
-
-// header
-.headroom{
-  -webkit-box-shadow: 0 8px 6px -6px #999;
-  -moz-box-shadow: 0 8px 6px -6px #999;
-  box-shadow: 0 8px 6px -6px #999;
-  background-color: var(--bs-body-bg);
-}
-
-.navbar>.container-fluid{
-  padding-left: 0;
-  padding-right: 0;
-}
-
-.navbar>.container-fluid>.navbar-brand-container{
-  padding-left: 1rem;
-}
-
-.navbar-expand-lg .navbar-collapse {
-  padding-right: 1rem;
-}
-
-#quarto-header > nav{
-  padding-left: 0;
-  padding-right: 0;
-}
-
-.navbar-dark {
-  height: 100%;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  border: none;
-  font-weight: 800;
-  font-size: .9rem;
-  background-color: var(--bs-body-bg);
-}
-
-.navbar-dark .navbar-nav .nav-link:hover{
-  color: $dante-blue;
-}
-
-nav .nav-item:not(.compact) {
- margin-left: 10px; 
-}
+  #news{
+    .quarto-listing {
+      width: 80%;
+      margin: 0 auto;
+    }
+  }
   
-@media (max-width: 992px){
-  .navbar>.container-lg,.navbar>.container,.navbar>.container-fluid {
-    justify-content: start;
-    -webkit-justify-content: start;
-  }  
+  
+  .custom-footer {
+    
+    >.container-fluid{
+      width: 80%;
+    }
+    
+    .logo{
+      width: 40%;
+    }
+    
+  }
+  
+  
 }
-
-
-// section general
-
-#quarto-content section{
-  padding-top: 5rem;
-  padding-bottom: 5em;
-}
-
-#quarto-content section > h2{
-  margin-bottom: 0 !important;
-  padding: 0;
-}
-
-#quarto-content section h2:not(.accordion-header){
-  margin-top: 0;
-  margin-bottom: 2rem;
-  padding-bottom: 0;
-  text-align: center;
-  border-bottom: none;
-}
-
-
-.page-layout-custom {
-  @include make-container();
-}
-
-.page-layout-custom > section{
-  @include make-container();
-}
-
-.quarto-title-block{
-  margin-top: 2rem !important;
-}
-
-
-
-
-
-
 
 
 // footer
