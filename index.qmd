@@ -27,13 +27,16 @@ format:
 
 :::{.row .justify-content-center}
 
-::::{.col-md-7 .text-center .fs-5 .lh-lg}
+::::{.col-xl-7 .text-center .fs-5 .lh-lg}
 
 <h2>Democratizing Digital Transformation</h2>
 
 :::::{.container-fluid .px-0 .text-center .lh-lg}
 
-"디지털 전환의 대중화"의 슬로건 아래에 생명과학 산업 내 중소기업 회사들이 <br> 사내 IT 부서 없이도 사업 운영 과정의 디지털 전환을 이뤄낼 수 있도록,<br> DanteVision은 합리적인 가격으로 비즈니스 솔루션(SaaS)을 제공합니다.
+DanteVision은 "디지털 전환의 대중화"의 슬로건 아래에<br>
+생명과학 산업 내 중소기업 회사들이 사내 IT 부서 없이도<br>
+사업 운영 과정의 디지털 전환을 이뤄낼 수 있도록,<br>
+합리적인 가격으로 비즈니스 솔루션(SaaS)을 제공합니다.
 
 :::::
 
@@ -58,17 +61,19 @@ format:
 
 :::::{.container-fluid .px-0 .text-center .lh-lg}
 
-TDS는 CRO사의 사업개발 과정의 [과학적 관리(Taylorism)](https://ko.wikipedia.org/wiki/%EA%B3%BC%ED%95%99%EC%A0%81_%EA%B4%80%EB%A6%AC%EB%B2%95){target="_blank".text-dark}를 지원하는 비즈니스 솔루션 입니다.
+TDS는 CRO사의 사업 개발(Business Development) 운영의<br>
+[과학적 관리(Taylorism)](https://ko.wikipedia.org/wiki/%EA%B3%BC%ED%95%99%EC%A0%81_%EA%B4%80%EB%A6%AC%EB%B2%95){target="_blank".text-dark}를 지원하는 비즈니스 솔루션 입니다.
 
-의약품 임상시험 과제 수주 또는 참여를 목적으로 한 영업 및 사업개발 활동을<br>
-구조화, 자동화, 시각화 및 데이터베이스화를 통해 체계적&CenterDot;효율적으로 운영해 보세요!
+임상시험 과제 수주 또는 참여를 목적으로 한 영업 및 사업 개발 활동을<br>
+구조화, 자동화 및 시각화를 통해 과학적으로 운영해 보세요!
 
-TDS는 CRO사의 사업개발(Business Development BD) 부문<br>디지털 전환을 위한 여러분의 첫 번째 선택지 입니다.
+TDS는 사업 개발 부문 디지털 전환을 위한<br>
+CRO 산업의 첫 번째 선택지 입니다.
 
 :::::
 
 
-<h4 class="my-4 text-center">Key Features</h4>
+<h4 class="pt-4 mb-4 text-center">Key Features</h4>
 
 :::::{.row .justify-content-center .gx-2}
 

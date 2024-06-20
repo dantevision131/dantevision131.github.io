@@ -51,9 +51,164 @@ body{
 }
 */
 
+#vision{
+  background-image: url('images/digital-transformation.jpg');
+  background-color: rgba(0,33,71, .95);
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+  color: white;
+}
+
+
+#product{
+  background-color: var(--bs-light);
+}
+
+#product .accordion{
+  margin-bottom: 0.5rem;
+}
+
+
+#service{
+  background-color: var(--quarto-hl-ss-color);
+  color: var(--bs-white);
+}
+
+#service .card{
+  padding: 1rem 1.5rem;
+  color: var(--bs-dark);
+  background: var(--bs-light);
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+
+
+
+#news{
+  background-color: var(--bs-light);
+}
+
+
+// Typical size (more than 576px)
+@media (min-width: 576px){
+  
+  body{
+    p{
+      font-size: calc(var(--bs-body-font-size) * 1.15);
+    }
+  }
+  
+  #vision{
+    padding-top: 8rem;
+    padding-bottom: 7rem;
+    
+    h2{
+      font-size: calc(var(--bs-body-font-size) * 2.2);
+    }
+    
+    p{
+      line-height: 2.5;
+      font-size: calc(var(--bs-body-font-size) * 1.25);
+      font-weight: 500;
+    }
+    
+  }
+    
+  #product {
+    
+    .accordion-button{
+      font-size: calc(var(--bs-body-font-size) *.9);
+    }
+    
+    .accordion-body{
+      font-size: calc(var(--bs-body-font-size) *.8);
+    }
+    
+  }
+  
+  
+}
+
+// Small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { 
+  
+  body{
+    --bs-body-font-size: 14px;
+  }
+  
+  h2 {
+    font-size: calc(var(--bs-body-font-size) * 1.6);
+  }
+  
+  #quarto-content > section h2:not(.accordion-header){
+    margin-bottom: 1rem !important;
+  }
+  
+  
+  #vision{
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+    
+    h2{
+      font-size: calc(var(--bs-body-font-size) * 2) 
+    }
+    
+    p{
+      font-size: calc(var(--bs-body-font-size));
+    }
+    
+  }
+  
+  
+  #product {
+    
+    .accordion{
+      width: 80%;
+      margin: .25rem auto;
+    }
+    
+    .accordion-button{
+      font-size: calc(var(--bs-body-font-size));
+    }
+    
+    .accordion-body{
+      font-size: calc(var(--bs-body-font-size)*.9);
+    }
+    
+  } 
+  
+  
+  #service{
+    
+    .card{
+      width: 80%;
+      padding: .5rem .75rem;
+    }
+    .card-body{
+      padding: .75rem;
+    }
+    
+    .card-title{
+      font-size: calc(var(--bs-body-font-size)*.9);
+      margin-bottom: .3rem;
+    }
+
+    .card-text{
+      font-size: calc(var(--bs-body-font-size)*.85);
+    }
+    
+  }
+  
+  
+}
+
+
+
+
+
 
 // header
-
 .headroom{
   -webkit-box-shadow: 0 8px 6px -6px #999;
   -moz-box-shadow: 0 8px 6px -6px #999;
@@ -107,17 +262,18 @@ nav .nav-item:not(.compact) {
 
 
 // section general
-#quarto-content > section{
+
+#quarto-content section{
   padding-top: 5rem;
   padding-bottom: 5em;
 }
 
-#quarto-content > section > h2{
+#quarto-content section > h2{
   margin-bottom: 0 !important;
   padding: 0;
 }
 
-#quarto-content > section h2:not(.accordion-header){
+#quarto-content section h2:not(.accordion-header){
   margin-top: 0;
   margin-bottom: 2rem;
   padding-bottom: 0;
@@ -140,75 +296,9 @@ nav .nav-item:not(.compact) {
 
 
 
-// section specific
-
-#vision{
-  padding-top: 8rem !important;
-  padding-bottom: 7rem !important;
-  background-image: url('images/digital-transformation.jpg');
-  background-color: rgba(0,33,71, .95);
-  background-blend-mode: overlay;
-  background-repeat: no-repeat;
-  background-attachment: fixed;  
-  background-size: cover;
-  color: white;
-}
-
-
-#vision h2{
-  font-size: 2.5rem;
-  
-}
-
-#vision p{
-  font-size: 1.25rem;
-  font-weight: 500;
-}
 
 
 
-
-#product{
-  background-color: var(--bs-light);
-}
-
-#product .accordion{
-  margin-bottom: 0.5rem;
-}
-
-
-#product .accordion-button{
-  font-size: .9rem;
-  
-}
-
-#product .accordion-body{
-  font-size: .8rem;
-}
-
-#service{
-  background-color: var(--quarto-hl-ss-color);
-  color: var(--bs-white);
-}
-
-#service .card{
-  padding: 1rem 2rem;
-  color: var(--bs-dark);
-  background: var(--bs-light);
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
-}
-
-#service .card-title{
-  font-size: 1rem;
-}
-
-#service .card-text{
-  font-size: .9rem;
-}
-
-#news{
-  background-color: var(--bs-light);
-}
 
 
 // footer
