@@ -297,7 +297,7 @@ nav .nav-item:not(.compact) {
 // Typical size (more than 576px)
 @media (min-width: 576px){
   
-  body{
+  section{
     p{
       font-size: calc(var(--bs-body-font-size) * 1.15);
     }
