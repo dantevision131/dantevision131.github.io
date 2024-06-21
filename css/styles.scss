@@ -53,7 +53,6 @@ $dv-darkgray: #333333;
 }
 
 
-
 html {
   scroll-behavior: smooth;
 }
@@ -91,7 +90,7 @@ body{
   padding-right: 0;
 }
 
-.navbar-dark {
+.navbar {
   height: 100%;
   max-width: 1200px;
   margin-left: auto;
@@ -99,10 +98,10 @@ body{
   border: none;
   font-weight: 800;
   font-size: .9rem;
-  background-color: var(--bs-body-bg);
+  background-color: var(--bs-white-bg);
 }
 
-.navbar-dark .navbar-nav .nav-link:hover{
+.navbar .navbar-nav .nav-link:hover{
   color: $dante-blue;
 }
 
@@ -118,7 +117,7 @@ nav .nav-item:not(.compact) {
 }
 
 
-
+// general
 #quarto-content section{
   padding-top: 5rem;
   padding-bottom: 5em;
@@ -152,7 +151,48 @@ nav .nav-item:not(.compact) {
 
 
 
+// revision of existing elements
+.full-width{
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
 
+
+.h1, .h2, .h3, .h6, h1, h2, h3 {
+  font-weight: 800 !important;
+}
+
+.h4, .h5, h4, h5{
+  font-weight: 600 !important;
+}
+
+.fs-7{
+  font-size: .8rem !important;  
+}
+
+.fs-8{
+  font-size: .75rem !important;  
+}
+
+.accordion h2, .accordion .h2{
+  margin-top: 0;
+  padding-bottom: 0;
+}
+
+
+// post
+.title-block-header{
+  border-bottom: 1px solid var(--bs-dark);
+  padding-bottom: 1rem;
+}
+
+
+
+//sections
 #vision{
   background-image: url('images/digital-transformation.jpg');
   background-color: rgba(0,33,71, .95);
@@ -186,10 +226,72 @@ nav .nav-item:not(.compact) {
 }
 
 
-
 #news{
   background-color: var(--bs-light);
 }
+
+
+
+// footer
+.custom-footer{
+  background-color: var(--bs-gray-900);
+  color: var(--bs-body-bg);
+  font-size: calc( var(--bs-body-font-size)*.8 );
+}
+
+.custom-footer .copyright{
+  background-color: var(--bs-gray-800);
+  padding: .5rem 0;
+  text-align: center;
+}
+
+
+// footer business registration information
+.custom-footer .accordion-item{
+  background-color: inherit;
+  border: none;
+}
+
+.custom-footer .accordion-header{
+  border-bottom: none;
+}
+
+.custom-footer .accordion-button{
+  padding: 0;
+  color: inherit;
+  background-color: inherit;
+  font-size: inherit;
+  width: initial;
+}
+
+.custom-footer .accordion-button:focus{
+  box-shadow: none;
+}
+
+.custom-footer .accordion-button::after{
+  margin-left: .25rem;
+  width: initial;
+  height: initial;
+  font-size: 0.8rem;
+}
+
+.custom-footer .accordion-button.collapsed::after{
+  content: "\25bc";
+  background-image: none;
+  transform: rotate(0deg);
+}
+
+.custom-footer .accordion-button:not(.collapsed)::after {
+  content: "\25bc";
+  background-image: none;
+  transform: rotate(-180deg);
+}
+
+.custom-footer .accordion-body{
+  padding: .1rem 0;
+  font-size: 0.8rem;
+}
+
 
 
 // Typical size (more than 576px)
@@ -223,6 +325,7 @@ nav .nav-item:not(.compact) {
       font-size: calc(var(--bs-body-font-size) *.9);
     }
     
+
     .accordion-body{
       font-size: calc(var(--bs-body-font-size) *.8);
     }
@@ -240,9 +343,19 @@ nav .nav-item:not(.compact) {
   }
   
   
-  .custom-footer .logo{
-    width: 25%;
-  }
+  .custom-footer{
+    .logo{
+      width: 20%;
+    }
+    
+    p {
+      font-size: calc(var(--bs-body-font-size)*.9);
+    }
+    
+    .accordion-button{
+      font-size: calc(var(--bs-body-font-size)*.8);
+    }
+  } 
   
 }
 
@@ -345,109 +458,10 @@ nav .nav-item:not(.compact) {
 }
 
 
-// footer
-.custom-footer{
-  background-color: var(--bs-gray-900);
-  color: var(--bs-body-bg);
-  font-size: calc( var(--bs-body-font-size)*.8 );
-}
-
-.custom-footer .copyright{
-  background-color: var(--bs-gray-800);
-  padding: .5rem 0;
-  text-align: center;
-}
-
-
-// footer business registration information
-.custom-footer .accordion-item{
-  background-color: inherit;
-  border: none;
-}
-
-.custom-footer .accordion-header{
-  border-bottom: none;
-}
-
-.custom-footer .accordion-button{
-  padding: 0;
-  color: inherit;
-  background-color: inherit;
-  font-size: inherit;
-  width: initial;
-}
-
-.custom-footer .accordion-button:focus{
-  box-shadow: none;
-}
-
-.custom-footer .accordion-button::after{
-  margin-left: .25rem;
-  width: initial;
-  height: initial;
-  font-size: 0.8rem;
-}
-
-.custom-footer .accordion-button.collapsed::after{
-  content: "\25bc";
-  background-image: none;
-  transform: rotate(0deg);
-}
-
-.custom-footer .accordion-button:not(.collapsed)::after {
-  content: "\25bc";
-  background-image: none;
-  transform: rotate(-180deg);
-}
-
-.custom-footer .accordion-body{
-  padding: .1rem 0;
-  font-size: 0.8rem;
-}
-
-// pagnation on news section
 
 
 
 
-// revision of existing elements
-.full-width{
-  width: 100vw;
-  position: relative;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
-}
-
-
-.h1, .h2, .h3, .h6, h1, h2, h3 {
-  font-weight: 800 !important;
-}
-
-.h4, .h5, h4, h5{
-  font-weight: 600 !important;
-}
-
-.fs-7{
-  font-size: .8rem !important;  
-}
-
-.fs-8{
-  font-size: .75rem !important;  
-}
-
-.accordion h2, .accordion .h2{
-  margin-top: 0;
-  padding-bottom: 0;
-}
-
-
-// post
-.title-block-header{
-  border-bottom: 1px solid var(--bs-dark);
-  padding-bottom: 1rem;
-}
 
 
 
