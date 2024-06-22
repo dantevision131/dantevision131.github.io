@@ -178,6 +178,12 @@ nav .nav-item:not(.compact) {
   font-size: .75rem !important;  
 }
 
+
+.accordion{
+  --bs-accordion-color: inherit;
+  --bs-accordion-bg: inherit;
+}
+
 .accordion h2, .accordion .h2{
   margin-top: 0;
   padding-bottom: 0;
@@ -236,7 +242,6 @@ nav .nav-item:not(.compact) {
 .custom-footer{
   background-color: var(--bs-gray-900);
   color: var(--bs-body-bg);
-  font-size: calc( var(--bs-body-font-size)*.8 );
 }
 
 .custom-footer .copyright{
@@ -247,6 +252,11 @@ nav .nav-item:not(.compact) {
 
 
 // footer business registration information
+.custom-footer .accordion{
+  --bs-accordion-btn-focus-border-color: transparent;
+  --bs-accordion-btn-focus-box-shadow: none;
+}
+
 .custom-footer .accordion-item{
   background-color: inherit;
   border: none;
@@ -269,10 +279,10 @@ nav .nav-item:not(.compact) {
 }
 
 .custom-footer .accordion-button::after{
-  margin-left: .25rem;
+  margin-left: .3rem;
   width: initial;
   height: initial;
-  font-size: 0.8rem;
+  font-size: calc(var(--bs-body-font-size) * .7);
 }
 
 .custom-footer .accordion-button.collapsed::after{
@@ -289,7 +299,7 @@ nav .nav-item:not(.compact) {
 
 .custom-footer .accordion-body{
   padding: .1rem 0;
-  font-size: 0.8rem;
+  font-size: calc(var(--bs-body-font-size) * .65);
 }
 
 
@@ -444,8 +454,12 @@ nav .nav-item:not(.compact) {
   
   .custom-footer {
     
+    .accordion-button{
+      font-size: calc(var(--bs-body-font-size)*.8);
+    }
+    
     >.container-fluid{
-      width: 80%;
+      width: 95%;
     }
     
     .logo{

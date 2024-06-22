@@ -55,8 +55,12 @@ website:
     
 format:
   html:
-    theme: [default, css/styles.scss]
-    css: [css/bootstrap-grid.css]
+    theme: 
+      - default, 
+      - styles.scss
+    css: 
+      - css/bootstrap-grid.css
+      
     page-layout: custom
     
     mainfont: 'NanumSquare, system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, Liberation Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji'
