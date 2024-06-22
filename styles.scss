@@ -57,6 +57,45 @@ html {
   scroll-behavior: smooth;
 }
 
+.badge{
+  border-radius: var(--bs-badge-border-radius);  
+}
+
+// fad in 
+@keyframes fadeInUp {
+  from {
+    transform: translateY(70px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.fade-in-up {
+  animation: 1s both fadeInUp;
+}
+
+.fade-in-delay-1 {
+  animation-delay: .50s;
+}
+
+.fade-in-delay-2 {
+  animation-delay: 1.00s;
+}
+
+.fade-in-delay-3 {
+  animation-delay: 1.50s;
+}
+
+.fade-in-delay-4 {
+  animation-delay: 2.00s;
+}
+
+
+
+
 /*
 body{
   font-family: NanumSquare, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",   "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
@@ -225,16 +264,30 @@ nav .nav-item:not(.compact) {
 }
 
 #service .card{
+  --bs-card-spacer-y: .5rem;
+  --bs-card-spacer-x: .5rem;
+  
   padding: 1rem 1.5rem;
   color: var(--bs-dark);
   background: var(--bs-light);
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 8px;
+  
 }
 
 
 #news{
   background-color: var(--bs-light);
+  .quarto-grid-item.card{
+    border-radius: 8px;
+    .card-img-top{
+      padding: .75rem 1rem;  
+    }
+  }
+  
 }
+
+
 
 
 
@@ -309,7 +362,7 @@ nav .nav-item:not(.compact) {
   
   section{
     p{
-      font-size: calc(var(--bs-body-font-size) * 1.15);
+      font-size: calc(var(--bs-body-font-size) * 1.1);
     }
   }
   

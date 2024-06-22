@@ -26,9 +26,9 @@ date-format: "YYYY.MM.DD"
 
 ::::{.col-xl-7 .text-center .fs-5 .lh-lg}
 
-<h2>Democratizing Digital Transformation</h2>
+<h2 class="fade-in-up-on-scroll fade-in-up">Democratizing Digital Transformation</h2>
 
-:::::{.container-fluid .px-0 .text-center .lh-lg}
+:::::{.container-fluid .px-0 .text-center .lh-lg .fade-in-up .fade-in-delay-1}
 
 DanteVision은 "디지털 전환의 대중화"의 슬로건 하에<br>
 생명과학 산업 내 중소기업 회사들이 사내 IT 부서 없이도<br>
@@ -48,10 +48,10 @@ DanteVision은 "디지털 전환의 대중화"의 슬로건 하에<br>
 
 ::::{.col-md-7}
 
-<h3 class="text-center mb-3 mt-0"><span class="text-dv-blue">Coming</span> <span class="text-dv-green">Soon:</span></h3>
-<h2>Trial Dealmaking Support (TDS) </h2>
+<h3 class="text-center mb-3 mt-0 fade-in-up fade-in-delay-2"><span class="text-dv-blue">Coming</span> <span class="text-dv-green">Up</span></h3>
+<h2 class="fade-in-up fade-in-delay-2">Trial Dealmaking Support (TDS) </h2>
 
-:::::{.container-fluid .px-0 .text-center .lh-lg}
+:::::{.container-fluid .px-0 .text-center .lh-lg .fade-in-up .fade-in-delay-3}
 
 TDS는 CRO사의 사업 개발(Business Development) 운영의<br>
 [과학적 관리](https://ko.wikipedia.org/wiki/%EA%B3%BC%ED%95%99%EC%A0%81_%EA%B4%80%EB%A6%AC%EB%B2%95){target="_blank".text-dark}를 지원하는 비즈니스 솔루션 입니다.
@@ -66,9 +66,9 @@ CRO 산업의 첫 번째 선택지 입니다.
 :::::
 
 
-<h4 class="pt-4 mb-4 text-center">Key Features</h4>
+<h4 class="pt-4 mb-4 text-center fade-in-up-on-scroll">Key Features</h4>
 
-:::::{.row .justify-content-center .gx-2}
+:::::{.row .justify-content-center .gx-2 .fade-in-up-on-scroll .fade-in-delay-1}
 
 ::::::{.col-xl-5}
 ```{=html}
@@ -117,7 +117,7 @@ CRO 산업의 첫 번째 선택지 입니다.
 :::::
 
 
-:::::{.row .justify-content-center .gx-2}
+:::::{.row .justify-content-center .gx-2 .fade-in-up-on-scroll .fade-in-delay-1}
 
 ::::::{.col-xl-5}
 ```{=html}
@@ -127,7 +127,7 @@ CRO 산업의 첫 번째 선택지 입니다.
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#analytics-content" aria-expanded="true" aria-controls="analytics-content">
         <div class="w-100 d-flex align-items-center gap-3 ps-1 pe-3">
           <i class="fa-solid fa-chart-line d-none d-xl-block" style="font-size:2.1rem"></i>
-          <span>Analytics, Visualization & Near-Time Dashboard</span>
+          <span>Analytics, Visualization & Dashboard</span>
         </div>
       </button>
     </h2>
@@ -177,9 +177,9 @@ CRO 산업의 첫 번째 선택지 입니다.
 
 ::::{.col-md-7}
 
-<h2>Professional Technical Services</h2>
+<h2 class="fade-in-up-on-scroll">Professional Technical Services</h2>
 
-:::::{.container-fluid .px-0 .text-center .lh-lg}
+:::::{.container-fluid .px-0 .text-center .lh-lg .fade-in-up-on-scroll}
 
 데이터 과학, 웹 애플리케이션 프로젝트와 관련하여<br>다양한 기술 서비스를 제공합니다.
 
@@ -187,19 +187,19 @@ CRO 산업의 첫 번째 선택지 입니다.
 
 :::::
 
-<h4 class="text-center my-4">서비스 항목</h4>
+<h4 class="text-center my-4 fade-in-up-on-scroll">서비스 항목</h4>
 
 :::::{.row .justify-content-center}
 
 ::::::{.col-lg-6}
 
 ```{=html}
-<div class="container-fluid card mb-2">
-  <div class="row gx-0">
-    <div class="col-lg-3 ps-2 align-self-center">
-      <img src="/images/shiny_logo.png" class="card-img	d-none d-lg-block p-2" alt="R/shiny">
+<div class="container-fluid card mb-2 fade-in-up-on-scroll">
+  <div class="row gx-2 align-items-center">
+    <div class="col-lg-3">
+      <img src="/images/shiny_logo.png" class="card-img	d-none d-lg-block p-3" alt="R/shiny">
     </div>
-    <div class="col-lg-9 ps-2">
+    <div class="col-lg-9">
       <div class="card-body">
         <h5 class="card-title">R/Shiny App Development</h5>
         <p class="card-text">데이터 과학(Data Science) 프로젝트에 특화된 R/Shiny 기반 웹 애플리케이션 및 모듈 제작 서비스</p>
@@ -227,16 +227,16 @@ CRO 산업의 첫 번째 선택지 입니다.
 <!-- ``` -->
 
 ```{=html}
-<div class="container-fluid card mb-2">
-  <div class="row gx-0">
-    <div class="col-lg-3 align-self-center">
-      <img src="/images/analytics.png" class="card-img d-none d-lg-block p-2" alt="Data Analytics">
+<div class="container-fluid card mb-2 fade-in-up-on-scroll">
+  <div class="row gx-2 align-items-center">
+    <div class="col-lg-3">
+      <img src="/images/analytics.png" class="card-img d-none d-lg-block p-3" alt="Data Analytics">
     </div>
-    <div class="col-lg-9 ps-2">
+    <div class="col-lg-9">
       <div class="card-body">
         <h5 class="card-title">Big Data / Statistical Analysis </h5>
         <p class="card-text">글로벌 응용계량경제학 박사 및
-          학술 연구 경험 기반 과학적 접근 방식의 데이터&CenterDot;통계 분석 서비스</p>
+          학술 연구 기반 과학적 접근 방식의 데이터 모델링 &CenterDot;통계 분석 서비스</p>
       </div>
     </div>
   </div>
@@ -244,10 +244,10 @@ CRO 산업의 첫 번째 선택지 입니다.
 ```
 
 ```{=html}
-<div class="container-fluid card mb-2">
-  <div class="row gx-0">
-    <div class="col-lg-3 ps-2 align-self-center">
-      <img src="/images/it_consulting.png" class="card-img d-none d-lg-block p-2" alt="IT Consulting">
+<div class="container-fluid card mb-2 fade-in-up-on-scroll">
+  <div class="row gx-2 align-items-center">
+    <div class="col-lg-3">
+      <img src="/images/it_consulting.png" class="card-img d-none d-lg-block p-3" alt="IT Consulting">
     </div>
     <div class="col-lg-9">
       <div class="card-body">
@@ -278,9 +278,9 @@ CRO 산업의 첫 번째 선택지 입니다.
 
 ::::{.col-md-7}
 
-<h2>Company News</h2>
+<h2 class="fade-in-up-on-scroll">Company News</h2>
 
-:::::{.row .justify-content-center .gap-2}
+:::::{.row .justify-content-center .gap-2 .fade-in-up-on-scroll}
 
 ::::::{.col-lg-9 .col-xl-9}
 
