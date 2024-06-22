@@ -17,9 +17,6 @@ listing:
   #   type: default
   #   categories: true
 date-format: "YYYY.MM.DD"
-format:
-  html: 
-    section-divs: true
 ---
 
 
@@ -41,12 +38,6 @@ DanteVision은 "디지털 전환의 대중화"의 슬로건 하에<br>
 :::::
 
 ::::
-
-<!-- ::::{.col-8  .fs-7 } -->
-
-<!-- We offer comprehensive support to small and medium-sized enterprises (SMEs) operating in the bio-pharmaceutical industry, assisting them in executing digital transformation initiatives. Our aim is to empower SMEs, particularly those without internal IT teams, to establish a robust digital foundation. By doing so, we help them enhance operational efficiency and prepare for the seamless integration of data science or AI applications, ultimately fostering growth and innovation within their businesses. -->
-
-<!-- :::: -->
 
 :::
 

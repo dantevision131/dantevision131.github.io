@@ -171,11 +171,11 @@ nav .nav-item:not(.compact) {
 }
 
 .fs-7{
-  font-size: .8rem !important;  
+  font-size: calc(var(--bs-body-font-size) * .8) !important;  
 }
 
 .fs-8{
-  font-size: .75rem !important;  
+  font-size: calc(var(--bs-body-font-size) * .75) !important;  
 }
 
 
@@ -248,10 +248,10 @@ nav .nav-item:not(.compact) {
   background-color: var(--bs-gray-800);
   padding: .5rem 0;
   text-align: center;
+  font-size: calc(var(--bs-body-font-size) * .8)
 }
 
 
-// footer business registration information
 .custom-footer .accordion{
   --bs-accordion-btn-focus-border-color: transparent;
   --bs-accordion-btn-focus-box-shadow: none;

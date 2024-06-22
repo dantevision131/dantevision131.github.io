@@ -1,33 +1,15 @@
 project:
   type: website
   output-dir: docs
+  resources: CNAME
   preview:
     port: 4200
 
 website:
   title: "DanteVision"
   favicon: "/images/dv_favicon.png"
+  site-url: dantevision.com
   
-  # page-footer:
-  #   background: dark
-  #   foreground: white
-  #   
-  #   left: 
-  #     - "<a href=#><img src='img/dantevision_white_logo.png' class='img-fluid mb-1' alt='DanteVision' width='180'></a>"
-  #     - "(주) 단테비전 | 대표자: 계형일 | 사업자 번호: 000-00-00000"
-  #     - "주소: 경기도 안양시 동안구"
-  #     - "이메일: cs@dantevision.com"
-  #     
-  #   center:
-  #     - text: "About"
-  #       href: about.qmd
-  #       
-  #   right:
-  #     - icon: linkedin
-  #       href: https://twitter.com/quarto_pub
-  #       aria-label: DanteVision LinkedIn
-
-
   navbar:
     title: " "
     logo: "/images/dantevision_logo.png"
@@ -55,11 +37,13 @@ website:
     
 format:
   html:
-    theme: 
-      - default, 
-      - styles.scss
+    theme:
+    - cosmo
+    - styles.scss
     css: 
       - css/bootstrap-grid.css
+    
+    section-divs: true
       
     page-layout: custom
     
