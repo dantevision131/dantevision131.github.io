@@ -234,7 +234,7 @@ CRO 산업의 첫 번째 선택지 입니다.
     </div>
     <div class="col-lg-9">
       <div class="card-body">
-        <h5 class="card-title">Big Data / Statistical Analysis </h5>
+        <h5 class="card-title">Big Data Analytics</h5>
         <p class="card-text">글로벌 응용계량경제학 박사 및
           학술 연구 기반 과학적 접근 방식의 데이터 모델링 &CenterDot;통계 분석 서비스</p>
       </div>
