@@ -31,7 +31,7 @@ website:
 
     
     collapse: true
-    toggle-position: "left"
+    toggle-position: "right"
 
   search: false
     
@@ -50,6 +50,7 @@ format:
     mainfont: 'NanumSquare, system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, Liberation Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji'
 
     include-in-header:
+      - file: google_analytics.html
       - text: '<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>'
       - text: '<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@2.0/nanumsquare.css">'
       - text: '<script src="https://kit.fontawesome.com/98e6e57c15.js" crossorigin="anonymous"></script>'
