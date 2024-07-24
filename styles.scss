@@ -156,10 +156,21 @@ nav .nav-item:not(.compact) {
 
 
 // general
+
+.news-body {
+  h2, .h2{
+    padding-top: 0;
+    padding-bottom: 0;  
+    border: none;
+    margin-bottom: 2rem;
+  }
+}
+
 #quarto-content section{
   padding-top: 5rem;
   padding-bottom: 5em;
 }
+
 
 #quarto-content section > h2{
   margin-bottom: 0 !important;
@@ -277,10 +288,31 @@ nav .nav-item:not(.compact) {
 
 #news{
   background-color: var(--bs-light);
+  
   .quarto-grid-item.card{
+    
     border-radius: 8px;
+    
     .card-img-top{
-      padding: .75rem 1rem;  
+      padding: 1rem 2rem;  
+    }
+    .card-body.post-contents{
+      .card-title.listing-title{
+        font-size: 1rem;
+        margin-bottom: .5rem;
+      }
+      .card-text.listing-description{
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border-width: 0;
+      }
+      
     }
   }
   
@@ -495,13 +527,6 @@ nav .nav-item:not(.compact) {
     
   }
   
-  
-  #news{
-    .quarto-listing {
-      width: 80%;
-      margin: 0 auto;
-    }
-  }
   
   
   .custom-footer {
