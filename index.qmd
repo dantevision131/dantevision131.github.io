@@ -120,6 +120,7 @@ CRO 산업의 첫 번째 선택지 입니다.
 :::::{.row .justify-content-center .gx-2 .fade-in-up-on-scroll .fade-in-delay-1}
 
 ::::::{.col-xl-5}
+
 ```{=html}
 <div class="accordion" id="analytics">
   <div class="accordion-item">
@@ -139,6 +140,7 @@ CRO 산업의 첫 번째 선택지 입니다.
   </div>
 </div>
 ```
+
 ::::::
 
 ::::::{.col-xl-5}
@@ -209,22 +211,21 @@ CRO 산업의 첫 번째 선택지 입니다.
 </div>
 ```
 
-<!-- ```{=html} -->
-<!-- <div class="container-fluid card mb-2"> -->
-<!--   <div class="row gx-0"> -->
-<!--     <div class="col-lg-3 text-center align-self-center"> -->
-<!--       <img src="/images/website.png" class="card-img d-none d-lg-block" alt="Personal Website" style="width:80%"> -->
-<!--     </div> -->
-<!--     <div class="col-lg-9"> -->
-<!--       <div class="card-body"> -->
-<!--         <h5 class="card-title">Personal Website Development</h5> -->
-<!--         <p class="card-text">인플루언서, 전문 연구원, 대학 교수, 개인사업자을 -->
-<!--           위한 프로페셔널 개인 홈페이지 제작 서비스 </p> -->
-<!--       </div> -->
-<!--     </div> -->
-<!--   </div> -->
-<!-- </div> -->
-<!-- ``` -->
+```{=html}
+<div class="container-fluid card mb-2 fade-in-up-on-scroll">
+  <div class="row gx-2 align-items-center">
+    <div class="col-lg-3">
+      <img src="/images/website.png" class="card-img d-none d-lg-block p-3" alt="Personal Website"> 
+    </div> 
+    <div class="col-lg-9"> 
+      <div class="card-body"> 
+        <h5 class="card-title">Professional Website Development</h5> 
+        <p class="card-text">개인사업자, 인플루언서, 전문 연구원, 대학 교수 등을 위한 프로페셔널 홈페이지 제작 서비스</p> 
+      </div> 
+    </div>
+  </div>
+</div>
+```
 
 ```{=html}
 <div class="container-fluid card mb-2 fade-in-up-on-scroll">
@@ -235,8 +236,7 @@ CRO 산업의 첫 번째 선택지 입니다.
     <div class="col-lg-9">
       <div class="card-body">
         <h5 class="card-title">Big Data Analytics</h5>
-        <p class="card-text">글로벌 응용계량경제학 박사 및
-          학술 연구 기반 과학적 접근 방식의 데이터 모델링 &CenterDot;통계 분석 서비스</p>
+        <p class="card-text">응용계량경제학 박사 및 실증 분석 학술 연구 역량 기반 빅데이터 &CenterDot; 통계 분석 서비스</p>
       </div>
     </div>
   </div>
