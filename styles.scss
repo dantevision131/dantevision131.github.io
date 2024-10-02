@@ -289,11 +289,11 @@ nav .nav-item:not(.compact) {
   border-radius: 8px;
 
   .card-title{
-    font-size: calc(var(--bs-body-font-size)*.9);
+    font-size: calc(var(--bs-body-font-size)*.95);
   }
 
   .card-text{
-    font-size: calc(var(--bs-body-font-size)*.8);
+    font-size: calc(var(--bs-body-font-size)*.85);
   }
   
 }
