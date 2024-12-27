@@ -211,7 +211,7 @@ CRO 산업의 첫 번째 선택지 입니다.
 </div>
 ```
 
-```{=html}
+<!-- ```{=html}
 <div class="container-fluid card mb-2 fade-in-up-on-scroll">
   <div class="row gx-2 align-items-center">
     <div class="col-lg-3">
@@ -225,7 +225,7 @@ CRO 산업의 첫 번째 선택지 입니다.
     </div>
   </div>
 </div>
-```
+``` -->
 
 ```{=html}
 <div class="container-fluid card mb-2 fade-in-up-on-scroll">
@@ -236,7 +236,7 @@ CRO 산업의 첫 번째 선택지 입니다.
     <div class="col-lg-9">
       <div class="card-body">
         <h5 class="card-title">Big Data Analytics</h5>
-        <p class="card-text">응용계량경제학 박사 및 실증 분석 학술 연구 역량 기반 빅데이터 &CenterDot; 통계 분석 서비스</p>
+        <p class="card-text">글로벌 경제학 박사 & 금융 경제학 실증 분석 역량 기반 빅데이터 &CenterDot; 통계 분석 서비스</p>
       </div>
     </div>
   </div>
