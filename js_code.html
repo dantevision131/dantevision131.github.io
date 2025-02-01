@@ -14,7 +14,17 @@
       });
     }
     
+    function updateCopyrightYear() {
+      const currentYear = new Date().getFullYear();
+      const copyrightElement = $("#copyright_year");
+      if (copyrightElement.length > 0) {
+        copyrightElement.text(currentYear);
+      } else {
+        console.log("Element with id 'copyright_year' not found.");
+      }
+    }
+    updateCopyrightYear();
+    
   })
-  
 </script>
 

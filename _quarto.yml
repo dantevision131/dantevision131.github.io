@@ -6,7 +6,7 @@ project:
     port: 4242
 
 website:
-  title: "DanteVision"
+  title: "DanteVision | 단테비전"
   favicon: "/images/dv_favicon.png"
   site-url: dantevision.com
   
@@ -26,10 +26,7 @@ website:
         href: "#service"
       - text: "News"
         file: "#news"
-      # - text: "Blog"
-      #   file: blog.qmd
 
-    
     collapse: true
     toggle-position: "right"
 
@@ -40,20 +37,16 @@ format:
     theme:
     - cosmo
     - styles.scss
+
     css: 
       - css/bootstrap-grid.css
     
-    section-divs: true
-      
     page-layout: custom
-    
-    # mainfont: 'NanumSquare, system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, Liberation Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji'
     mainfont: 'Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, Helvetica Neue, Segoe UI, Apple SD Gothic Neo, Noto Sans KR, Malgun Gothic, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, sans-serif'
 
     include-in-header:
       - file: google_analytics.html
       - text: '<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>'
-      - text: '<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@2.0/nanumsquare.css">'
       - text: '<script src="https://kit.fontawesome.com/98e6e57c15.js" crossorigin="anonymous"></script>'
       - text: '<link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />'
 

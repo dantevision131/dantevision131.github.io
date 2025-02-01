@@ -415,12 +415,12 @@ nav .nav-item:not(.compact) {
     padding-bottom: 7rem;
     
     h2{
-      font-size: calc(var(--bs-body-font-size) * 2.2);
+      font-size: 2.5em;
     }
     
     p{
       line-height: 2.5;
-      font-size: calc(var(--bs-body-font-size) * 1.25);
+      font-size: 1.1em;
       font-weight: 500;
     }
     
@@ -452,7 +452,7 @@ nav .nav-item:not(.compact) {
   
   .custom-footer{
     .logo{
-      width: 20%;
+      width: 15%;
     }
     
     p {
