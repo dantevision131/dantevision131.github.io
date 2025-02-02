@@ -40,8 +40,13 @@ $dv-darkgray: #333333;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
   
-  --dv-blue: $dante-blue;
-  --dv-dark: $vision-green;
+  --dv-blue: #0070C0;
+	--dv-green: #379956;
+	--dv-orange: #FF5F00;
+	--dv-darkwood: #65451F;
+	--dv-blue-subtle: #BDD7EE;
+	--dv-green-subtle: #379956;
+	--dv-darkblue: #112D4E;
 }
 
 .text-dv-blue{

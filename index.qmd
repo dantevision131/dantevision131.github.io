@@ -49,7 +49,9 @@ DanteVision은 "디지털 전환의 보편화"의 슬로건 하에<br>
 ::::{.col-md-7}
 
 <!-- <h3 class="text-center mb-3 mt-0 fw-semibold fade-in-up fade-in-delay-2"><span class="text-dv-blue">Coming</span> <span class="text-dv-green">Up</span></h3> -->
-<h2 class="fade-in-up fade-in-delay-2 fw-semibold">Trial Dealmaking Support (TDS) </h2>
+<h2 class="fade-in-up fade-in-delay-2 fw-semibold">
+  <span style="color:var(--dv-blue)">T</span>rial <span style="color:var(--dv-green)">D</span>ealmaking <span style="color:var(--dv-orange)">S</span>upport (TDS) 
+</h2>
 
 :::::{.container-fluid .px-0 .text-center .lh-lg .fade-in-up .fade-in-delay-3}
 
@@ -71,7 +73,7 @@ CRO 산업의 첫 번째 선택지 입니다.
 
 :::::{.row .justify-content-center .gx-2 .fade-in-up-on-scroll .fade-in-delay-1}
 
-::::::{.col-xl-3}
+::::::{.col-xl-4}
 ```{=html}
 <div class="accordion shadow-sm" id="crm">
   <div class="accordion-item">
@@ -93,7 +95,7 @@ CRO 산업의 첫 번째 선택지 입니다.
 ```
 ::::::
 
-::::::{.col-xl-3}
+::::::{.col-xl-4}
 ```{=html}
 <div class="accordion shadow-sm" id="analytics">
   <div class="accordion-item">
@@ -115,7 +117,7 @@ CRO 산업의 첫 번째 선택지 입니다.
 ```
 ::::::
 
-::::::{.col-xl-3}
+::::::{.col-xl-4}
 ```{=html}
 <div class="accordion shadow-sm" id="doc">
   <div class="accordion-item">
