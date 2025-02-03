@@ -2,14 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>dantevision.com/index.html</loc>
-    <lastmod>2025-02-02T04:40:10.927Z</lastmod>
+    <lastmod>2025-02-03T08:24:31.462Z</lastmod>
+  </url>
+  <url>
+    <loc>dantevision.com/news/news-20240603-001.html</loc>
+    <lastmod>2025-02-03T08:43:08.209Z</lastmod>
   </url>
   <url>
     <loc>dantevision.com/news/news-20240724-001.html</loc>
     <lastmod>2025-02-01T08:51:34.187Z</lastmod>
   </url>
   <url>
-    <loc>dantevision.com/news/news-20240603-001.html</loc>
-    <lastmod>2025-02-02T04:46:48.658Z</lastmod>
+    <loc>dantevision.com/news/news-20250203-001.html</loc>
+    <lastmod>2025-02-03T08:41:14.574Z</lastmod>
   </url>
 </urlset>

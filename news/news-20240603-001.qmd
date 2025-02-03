@@ -2,6 +2,7 @@
 title: "첫 인사"
 date: "2024-06-03"
 image: "news-20240603-001_thumbnail.png"
+description: "단테비전 간략소개"
 categories: [뉴스]
 ---
 
