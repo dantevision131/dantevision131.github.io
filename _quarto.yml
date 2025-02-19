@@ -1,9 +1,13 @@
 project:
   type: website
   output-dir: docs
-  resources: CNAME
+  resources: 
+    - CNAME
+    - privacy-policy.html
+    - terms-of-use.html
   preview:
     port: 4242
+    browser: false
 
 website:
   title: "DanteVision | 단테비전"
